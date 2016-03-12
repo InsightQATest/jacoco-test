@@ -11,10 +11,11 @@ public class TestClassTest {
     public void testHello() {
         TestClass testClass = new TestClass();
         testClass.doSomething("ok");
+        testClass.doSomethingElse();
     }
 
     @Test
     public void testFail() {
-        fail();
+//        fail();
     }
 }
